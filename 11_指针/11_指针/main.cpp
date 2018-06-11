@@ -11,7 +11,7 @@
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+int main2(int argc, const char * argv[]) {
     //通过指针可以可以简化C++编程任务的执行，还有一些比如动态内存分配
     //每一个变量都有一个内存位置，每一个内存位置都定义了可使用连字符&访问的地址，他表示内存中的一个地址
     int var1 = 10;
