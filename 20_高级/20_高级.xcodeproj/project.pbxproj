@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8D6CEC3720D10D5C008C304E /* 文件和流.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CEC3620D10D5C008C304E /* 文件和流.cpp */; };
 		8D6CEC4020D12033008C304E /* 简单的文件读写操作.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CEC3E20D12033008C304E /* 简单的文件读写操作.cpp */; };
+		8D6CEC4320D135DB008C304E /* 异常处理.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CEC4120D135DB008C304E /* 异常处理.cpp */; };
+		8D6CEC4620D13703008C304E /* 动态内存.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CEC4420D13703008C304E /* 动态内存.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,10 @@
 		8D6CEC3D20D11B15008C304E /* new.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = new.txt; sourceTree = "<group>"; };
 		8D6CEC3E20D12033008C304E /* 简单的文件读写操作.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "简单的文件读写操作.cpp"; sourceTree = "<group>"; };
 		8D6CEC3F20D12033008C304E /* 简单的文件读写操作.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "简单的文件读写操作.hpp"; sourceTree = "<group>"; };
+		8D6CEC4120D135DB008C304E /* 异常处理.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "异常处理.cpp"; sourceTree = "<group>"; };
+		8D6CEC4220D135DB008C304E /* 异常处理.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "异常处理.hpp"; sourceTree = "<group>"; };
+		8D6CEC4420D13703008C304E /* 动态内存.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "动态内存.cpp"; sourceTree = "<group>"; };
+		8D6CEC4520D13703008C304E /* 动态内存.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "动态内存.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,10 @@
 				8D6CEC3D20D11B15008C304E /* new.txt */,
 				8D6CEC3E20D12033008C304E /* 简单的文件读写操作.cpp */,
 				8D6CEC3F20D12033008C304E /* 简单的文件读写操作.hpp */,
+				8D6CEC4120D135DB008C304E /* 异常处理.cpp */,
+				8D6CEC4220D135DB008C304E /* 异常处理.hpp */,
+				8D6CEC4420D13703008C304E /* 动态内存.cpp */,
+				8D6CEC4520D13703008C304E /* 动态内存.hpp */,
 			);
 			path = "20_高级";
 			sourceTree = "<group>";
@@ -127,6 +137,8 @@
 			files = (
 				8D6CEC3720D10D5C008C304E /* 文件和流.cpp in Sources */,
 				8D6CEC4020D12033008C304E /* 简单的文件读写操作.cpp in Sources */,
+				8D6CEC4320D135DB008C304E /* 异常处理.cpp in Sources */,
+				8D6CEC4620D13703008C304E /* 动态内存.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 #include "简单的文件读写操作.hpp"
 
-int main(){
+int main2(){
     writeFile("README.md", "good job!");
     cout << readFile("README.md") << endl;
     getchar();
